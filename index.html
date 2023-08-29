@@ -3,28 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop Assignment</title>
+    <link rel="stylesheet" href="styles/assignment.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Flower Shop</title>
-    <link rel="shortcut icon" href="Images/pngwing 8.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Images/Flower 01.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="banner-container">
-            <div class="banner-text">
-                <h1 class="title">Let's make <br> beautiful flowers a <br> part of your life.</h1>
-                <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-                <button class="btn">Our Shop</button>
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title">Let's make beautiful flowers a part of your life.</h1>
+                <p class="text-primary">"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."</p>
+                <button class="btn-primary">Click Now</button>
             </div>
-            <div class="banner-photo">
-                <img class="banner-img" src="./Images/pngwing 6.png" alt="">
-            </div>
+            <img class="banner-flower" src="images/pngwing 10.png" alt="">
+            
         </div>
+    
     </header>
-    <main></main>
+    <main>
+        <section>
+            <h4 class="featured-flower-title">Our Featured Flowers</h4>
+            <p id="featured-description" class="featured-flower-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+        </section>
+        
+        <div class="our-featured-flowers">
+                <div class="first-featured-flowers"><img class="flowers-sizes" src="images/pngwing 6.png" alt="">
+                </div>
+                <div class="second-featured-flowers" ><img src="images/pngwing 5.png" alt=""></div>
+                <div class="third-featured-flowers" ><img class="flowers-sizes" src="images/pngwing 7.png" alt=""></div>
+        </div>
+        <ul>
+            <li><a href="">Pink Flower Tree</a></li>
+            <li><a href="">Red Flower Tree</a></li>
+            <li><a href="">Yellow Flower Tree</a></li>
+        </ul>
+        <div class="btn-flowers">
+            <button class="btn-primary">See More</button>
+        </div>
+        
+        <section class="section-hot-deals">
+            <div class="hot-deal-div">
+                <h4 class="hot-sale" >Hot Deal ! Sale Up To 25% <span>Off</span></h4>
+                <p class="text-primary">Embrace the sizzle of savings with our scorching Hot Deal! Enjoy a blazing discount of up to 25% off, igniting your shopping experience with unbeatable value. Hurry, this red-hot offer won't last long – ignite your floral passions while the savings are on fire!</p>
+                <button id="signup" class="btn-primary">Sign up</button>
+            </div>
+            <img src="images/pngwing 8.png" alt="">
+
+        </section>
+        <section>
+            
+            <div class="flowers-row">
+                <img class="favourite" src="images/Flower 01.png" alt="">
+                <img class="favourite" src="images/Rectangle 4.png" alt="">
+                <img class="favourite" src="images/Rectangle 5.png" alt="">
+                <img class="favourite" src="images/Rectangle 6.png" alt="">
+                
+            </div>
+        </section>
+        <section class="deals-container">
+            <h2 class="deals-title">Get The Latest Deals</h2>
+
+            <p class="coupon">$30 coupon for first shopping</p>
+            <br>
+            <input class="email-deals" type="email" name="" id="" placeholder="Enter Your Email">
+
+            <button class="btn-primary">Subscribe</button>
+        </section>
+        
+
+    </main>
     <footer>
+        <section class="footer-container">
+            <div class="footer-div">
+                <h2 class="footer-title"><span>Flower</span>Shop</h2>
+                <p class="footer-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <small id="abcs" class="footer-small">@2020-2023, FlowerShop.com. All rights reserved. </small>
+            </div>
+        </section>
 
     </footer>
 </body>
